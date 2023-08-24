@@ -1,0 +1,41 @@
+[Data Source]
+DisplayName=Holidays in Australia
+Enabled=true
+Parent=098ea34eb1075625a2c0016851fa653553f426eb
+
+[Authentication]
+Host=apidata.googleusercontent.com
+Method=OAuth2
+Port=443
+ProxyUid=system-proxy
+RememberPassword=true
+User=nikshay13031995@gmail.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=tls
+
+[Resource]
+Identity=events::https://apidata.googleusercontent.com/caldav/v2/cln2sobledq74obcd5gms8r8dtm6ip31f506esjfelo2sthecdgmopbechgn4bj7dtnmer355phmur8%40virtual/events/
+
+[WebDAV Backend]
+AvoidIfmatch=false
+CalendarAutoSchedule=true
+Color=#16a765
+DisplayName=Holidays in Australia
+EmailAddress=
+ResourcePath=/caldav/v2/cln2sobledq74obcd5gms8r8dtm6ip31f506esjfelo2sthecdgmopbechgn4bj7dtnmer355phmur8%40virtual/events/
+ResourceQuery=
+SslTrust=
+Order=4294967295
+
+[Calendar]
+BackendName=caldav
+Color=#16a765
+Selected=true
+Order=0
+
+[Alarms]
+IncludeMe=true
+LastNotified=2023-08-23T02:13:48.830087Z
